@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightcoral;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.outer {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  background-color: black;
+  background: radial-gradient(circle at 25% 100%, #fdf497 0%, #fdf497 5%, #fd5949 40%, #d6249f 60%, #285aeb 90%);
+  margin: auto;
+  margin-top: 200px;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.inner {
+  width: 240px;
+  height: 240px;
+  border: 20px solid #fff;
+  border-radius: 50px;
+  place-items: center;
+}
+
+.big-circle {
+  content: "";
+  width: 110px;
+  height: 110px;
+  border: 20px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.small-circle {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  top: -180px;
+  right: -190px;
+}/*# sourceMappingURL=gradient.css.map */
